@@ -14,8 +14,8 @@ app.jinja_env.trim_blocks = True
 app.jinja_env.lstrip_blocks = True
 
 user = {
-    'username': 'Grey Li',
-    'bio': 'A boy who loves movies and music.',
+    'username': 'Vincent Z',
+    'bio': 'A boy who loves movies and Python.',
 }
 
 movies = [
