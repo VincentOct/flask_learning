@@ -53,7 +53,7 @@ def initdb(drop):
     click.echo('Initialized database.')
 
 
-# Forms
+# Forms 表单
 class NewNoteForm(FlaskForm):
     body = TextAreaField('Body', validators=[DataRequired()])
     submit = SubmitField('Save')
@@ -68,14 +68,14 @@ class DeleteNoteForm(FlaskForm):
     submit = SubmitField('Delete')
 
 
-# Models
+# Models 模组/表（数据库中的）
 class Note(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     body = db.Column(db.Text)
 
     # optional
     def __repr__(self):
-        return '<Note %r>' % self.body
+        return '<Note {}>'.format(self.body)
 
 
 @app.route('/')
