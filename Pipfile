@@ -15,6 +15,7 @@ flask-dropzone = "*"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
 flask-mail = "*"
+sendgrid = "*"
 
 [requires]
 python_version = "3.7"
