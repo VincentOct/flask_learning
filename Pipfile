@@ -13,6 +13,8 @@ flask-wtf = "*"
 flask-ckeditor = "*"
 flask-dropzone = "*"
 flask-sqlalchemy = "*"
+flask-migrate = "*"
+flask-mail = "*"
 
 [requires]
 python_version = "3.7"
